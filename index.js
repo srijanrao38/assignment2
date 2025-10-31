@@ -44,7 +44,7 @@ app.post("/api/bookings", async (req, res) => {
 
 // GET - All bookings
 app.get("/api/bookings", async (req, res) => {
-  try {
+  try {r
     const bookings = await Booking.find();
     res.status(200).json(bookings);
   } catch (error) {
