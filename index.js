@@ -1,6 +1,6 @@
 import express from "express";
-import connectDB from "./mongodb/config/db.js";
-import { Booking } from "./mongodb/model/booking.js";
+import connectDB from "./config/db.js";
+import { Booking } from "./model/booking.js";
 import dotenv from "dotenv";
 
 dotenv.config();
