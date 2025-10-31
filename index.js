@@ -1,6 +1,9 @@
 import express from "express";
 import connectDB from "./mongodb/config/db.js";
 import { Booking } from "./mongodb/model/booking.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 const PORT = 3001;
